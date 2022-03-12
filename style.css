@@ -1,0 +1,32 @@
+.wrapper{
+  max-height: 200px;
+  line-height: 500px;
+  margin-top: 110px;
+  border: 1px solid #ddd;
+  display: flex; 
+  overflow: auto;
+
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+    
+}
+
+::-webkit-scrollbar-track {
+    background:#ddd;
+    }
+
+::-webkit-scrollbar-thumb {
+    background: #2e9dd8;
+ }
+
+.wrapper .item{
+    min-width: 150px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #436EEE;
+    margin-right: 6px;
+    
+}
